@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Fonts start-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <!--Fonts end-->
+    
     <link rel="stylesheet" href="./css/styles.css">
     <title>Document</title>
   </head>
@@ -12,72 +18,75 @@
      <header>
         <nav>
           
-          <a href="">WebStudio</a>
-          <ul>
-            <li><a href="./index.html" target="_blank" rel="noopener noreferrer">Студия</a></li>
-            <li><a href="">Портфолио</a></li>
-            <li><a href="">Контакты</a></li>
-          </ul>
+            <a class="logo-link link" href=""><span class="first-three">Web</span><span class="other">Studio</span></a>
+          
+            <ul class="header-list list ">
+                <li class="header-item"><a class="header-link link" href="./index.html"  rel="noopener noreferrer">Студия</a></li>
+                <li class="header-item"><a class="header-link header-link-current link" href="">Портфолио</a></li>
+                <li class="header-item"><a class="header-link link" href="">Контакты</a></li>
+              </ul> 
+           
         </nav>
-        <p>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </p>
-        <p>
-          <a href="tel:+380961111111"> +38 096 111 11 11</a>
-        </p>
+        <p class="contact_type_mail">
+            <a class="header-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </p>
+          <p class="contact_type_tel">
+            <a class="header-phone link" href="tel:+380961111111"> +38 096 111 11 11</a>
+          </p>
       </header>
       
-       <!--Pictures--> 
+        <!--Button-->
           <section>
          
-            <button type="button">Все</button>
-            <button type="button">Веб-сайты</button>
-            <button type="button">Приложения</button>
-            <button type="button">Дизайн</button>
-            <button type="button">Маркетинг</button>
-            <ul>
+            <button class="btn-portfolio" type="button">Все</button>
+            <button class="btn-portfolio" type="button">Веб-сайты</button>
+            <button class="btn-portfolio" type="button">Приложения</button>
+            <button class="btn-portfolio" type="button">Дизайн</button>
+            <button class="btn-portfolio" type="button">Маркетинг</button>
+            <!--Pictures-->
+            <ul class="photo-list list">
                 <li><img src="./imegesportfolio/img.jpg" alt="изображение веб-сайта" width="320">
-                <h3>Технокряк</h3>
-                <p>Веб-сайт</p></li>
+                <h3 class="photo-title">Технокряк</h3>
+                <p class="photo-text">Веб-сайт</p></li>
                 <li><img src="./imegesportfolio/img1.jpg" alt="постер волейбола" width="320">
-                <h3>Постер New Orlean vs Golden Star</h3>
-                <p>Дизайн</p></li>
+                <h3 class="photo-title">Постер New Orlean vs Golden Star</h3>
+                <p class="photo-text">Дизайн</p></li>
                 <li><img src="./imegesportfolio/img2.jpg" alt="Постер ресторана морепродуктов" width="320">
-                <h3>Ресторан Seafood</h3>
-                <p>Приложение</p></li>
+                <h3 class="photo-title">Ресторан Seafood</h3>
+                <p class="photo-text">Приложение</p></li>
                 <li><img src="./imegesportfolio/img3.jpg" alt="наушники" width="320">
-                <h3>Проект Prime</h3>
-                <p>Маркетинг</p></li>
+                <h3 class="photo-title">Проект Prime</h3>
+                <p class="photo-text">Маркетинг</p></li>
                 <li><img src="./imegesportfolio/img4.jpg" alt="коробки" width="320">
-                <h3>Проект Boxes</h3>
-                <p>Приложение</p></li>
+                <h3 class="photo-title">Проект Boxes</h3>
+                <p class="photo-text">Приложение</p></li>
                 <li><img src="./imegesportfolio/img5.jpg" alt="фото веб-сайта" width="320">
-                <h3>Inspiration has no Borders</h3>
-                <p>Веб-сайт</p></li>
+                <h3 class="photo-title">Inspiration has no Borders</h3>
+                <p class="photo-text">Веб-сайт</p></li>
                 <li><img src="./imegesportfolio/img6.jpg" alt="Разворот книги" width="320">
-                <h3>Издание Limited Edition</h3>
-                <p>Дизайн</p></li>
+                <h3 class="photo-title">Издание Limited Edition</h3>
+                <p class="photo-text">Дизайн</p></li>
                 <li><img src="./imegesportfolio/img7.jpg" alt="фото брелка" width="320">
-                <h3>Проект LAB</h3>
-                <p>Маркетинг</p></li>
+                <h3 class="photo-title">Проект LAB</h3>
+                <p class="photo-text">Маркетинг</p></li>
                 <li><img src="./imegesportfolio/img8.jpg" alt="фото ноутбука" width="320">
-                <h3>Growing Business</h3>
-                <p>Приложение</p></li>
+                <h3 class="photo-title">Growing Business</h3>
+                <p class="photo-text">Приложение</p></li>
             </ul>
           </section>
  
       <!--Footer-->  
-        <footer>
-          
-            <a href="">WebStudio</a>
-            <address>    
-              <p>г. Киев, пр-т Леси Украинки, 26</p> 
-                <ul>
-                  <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                  <li><a href="tel:+380961111111"> +38 096 111 11 11</a></li>
-              </ul>
-          </address>
-        </footer>
+      <footer class="footer">
+        
+        <a class="logo_footer link" href=""><span class="first-three">Web</span><span class="other-footer">Studio</span></a>
+        <address>    
+          <p class="address">г. Киев, пр-т Леси Украинки, 26</p> 
+            <ul class="contact_type_footer list">
+              <li><a class="footer-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+              <li><a class="footer-phone link" href="tel:+380961111111"> +38 096 111 11 11</a></li>
+          </ul>
+      </address>
+    </footer>
      
     </body>
   </html>
