@@ -31,7 +31,7 @@ color: var(--main-txt-cl);
 
 /* Header */
 /* logo*/
-.logo-link{
+.logo-link, .logo_footer{
 font-family: var(--secondary-font);
 font-weight: 700;
 font-size: 26px;
@@ -44,7 +44,7 @@ color: var(--accent-txt-cl);
 .other{
     color: #000000;
 }
-.header-item{
+.header-link{
  font-weight: 500;
 font-size: 14px;
 line-height: 1.33;
@@ -55,8 +55,8 @@ color: #212121;
 .header-link-current{
     color: var(--accent-txt-cl);
 }
-.contact_type_tel .contact_type_mail{
-    font-weight: 500;
+.header_phone,.header_mail{
+font-weight: 500;
 font-size: 14px;
 line-height: calc(16 / 14);
 letter-spacing: 0.02em;
@@ -92,6 +92,7 @@ font-family: inherit;
 font-weight: 700;
 font-size: 16px;
 line-height: calc(30 / 16);
+letter-spacing: 0.06em;
 background-color: #2196F3;
 color: #FFFFFF;
 cursor: pointer;
@@ -118,8 +119,30 @@ color: #757575;
 
 }
 /* What we doing */
+.about-title, .team-title{
+ font-weight: 700;
+font-size: 36px;
+line-height: calc(42 / 36);
+text-align: center;
+letter-spacing: 0.03em;
+}
+
 .team{
     background-color: #F5F4FA;
+}
+.team_title{
+font-weight: 500;
+font-size: 16px;
+line-height: calc(16 / 16);
+text-align: center;
+letter-spacing: 0.03em;
+}
+.team_text{
+font-weight: 400;
+font-size: 16px;
+line-height: calc(19 / 16);
+text-align: center;
+letter-spacing: 0.03em;
 }
 /*Footer*/
 .footer{
@@ -127,19 +150,22 @@ color: #757575;
     #2F303A;
 }
 .address{
-    font-weight: 400;
+font-family: inherit;
+font-style: normal;
+font-weight: 400;
 font-size: 14px;
 line-height: calc(24 /14);
 letter-spacing: 0.03em;
 color: #FFFFFF;
 }
-.contact_type_footer{
-    font-weight: 400;
-    font-size: 14px;
-    line-height: calc(24 / 14);
-     
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+.footer-mail, .footer-phone{
+font-family: inherit;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: calc(24 / 14);
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
 }
 .other-footer{
     color: #FFFFFF;
