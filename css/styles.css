@@ -55,7 +55,7 @@ color: #212121;
 .header-link-current{
     color: var(--accent-txt-cl);
 }
-.header_phone,.header_mail{
+.header-phone,.header-mail{
 font-weight: 500;
 font-size: 14px;
 line-height: calc(16 / 14);
@@ -111,7 +111,7 @@ text-transform: uppercase;
 color: #212121;
 }
 .text{
- font-weight: 400;
+
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
@@ -130,19 +130,23 @@ letter-spacing: 0.03em;
 .team{
     background-color: #F5F4FA;
 }
-.team_title{
+.team-subtitle {
 font-weight: 500;
-font-size: 16px;
-line-height: calc(16 / 16);
-text-align: center;
-letter-spacing: 0.03em;
-}
-.team_text{
-font-weight: 400;
 font-size: 16px;
 line-height: calc(19 / 16);
 text-align: center;
 letter-spacing: 0.03em;
+color: var(--main-font);
+}
+.team-text{
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #757575;
+    
+    
 }
 /*Footer*/
 .footer{
